@@ -2,7 +2,7 @@ from conll_dictorizer import CoNLLDictorizer, Token
 import os
 
 def load_conll2009_pos():
-    train_file = r'datasets\train.txt'
+    train_file = 'datasets\train.txt'
     dev_file = 'datasets\valid.txt'
     test_file = 'datasets\test.txt'
     test2_file = 'simple_pos_test.txt'
